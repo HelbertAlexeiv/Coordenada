@@ -1,5 +1,8 @@
 # Quiz Coordenadas
 
+## Diagrama de objetos
+![Diagrama](Punto1.jpeg)
+
 ## Modelo
 
 ```java
