@@ -35,6 +35,13 @@ public class Coordenada
         this.y = y;
     }
 
+    public double getDistancia(Coordenada cord)
+    {
+        double distancia = Math.sqrt(Math.pow(cord.getX() - x, 2) + Math.pow(cord.getY() - y, 2));
+
+        return distancia;
+    }
+
     @Override
     public String toString() 
     {
